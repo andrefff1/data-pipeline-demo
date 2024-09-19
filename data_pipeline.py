@@ -27,7 +27,7 @@ t0 = time.time()
 transformData()
 t1 = time.time()
 print("Step 3: Done")
-print("---> Data Transformed in", str(t1-t0), "seconds", "\n")
+print("---> data Transformed in", str(t1-t0), "seconds", "\n")
 
 # Step 4: Generate text embeddings
 print("Step 4: Running...")
