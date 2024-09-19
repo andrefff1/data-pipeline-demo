@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Use the PAT instead of the default GITHUB_TOKEN
       - name: Setup python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
           cache: 'pip'
